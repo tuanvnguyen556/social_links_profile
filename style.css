@@ -54,7 +54,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
 }
 
 main section, main nav{
@@ -145,6 +145,11 @@ div.attribution {
 @media (min-width: 1024px) {
     /*mobile first design where small laptop screen is 1024px*/
     main section, main nav{
-        width: 500px;
+        width: 320px;
+        padding: 25px;
+    }
+
+    main nav {
+        height: 300px;
     }
 }
